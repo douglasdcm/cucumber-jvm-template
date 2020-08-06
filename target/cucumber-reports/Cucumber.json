@@ -1,0 +1,611 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22014840200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.setUpTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Creating a new task",
+        "description": "",
+        "id": "create-task;creating-a-new-task",
+        "after": [
+          {
+            "result": {
+              "duration": 7085297200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.finishTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1822264400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I can navigate to any page",
+            "match": {
+              "location": "AppSteps.i_navigate_to_any_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20328700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should always see the My Tasks link on the NavBar",
+            "match": {
+              "location": "AppSteps.i_should_always_see_the_My_Tasks_link_on_the_NavBar()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1828537200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click this link",
+            "match": {
+              "location": "AppSteps.i_click_this_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 25335200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I will be redirected to a page with all created tasks",
+            "match": {
+              "location": "AppSteps.i_will_be_redirected_to_a_page_with_all_created_tasks()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 70747500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see a message on the top part saying that the list belongs to me",
+            "match": {
+              "location": "AppSteps.i_should_see_a_message_on_the_top_part_saying_that_the_list_belongs_to_me()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1990329100,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat AppSteps.i_enter_a_new_task(AppSteps.java:93)\r\n\tat ✽.When I enter a new task(001_createTask.feature:12)\r\n",
+              "status": "failed"
+            },
+            "line": 12,
+            "name": "I enter a new task",
+            "match": {
+              "location": "AppSteps.i_enter_a_new_task(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Task Name"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "taskSeleneum1"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "t"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "ta"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "tas"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  ""
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "ttttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaa"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "The task should be appended on the list of created tasks",
+            "match": {
+              "location": "AppSteps.the_task_should_be_appended_on_the_list_of_created_tasks()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create Task",
+    "description": "As a ToDo App user \r\nI should be able to create a task \r\nSo I can manage my tasks",
+    "id": "create-task",
+    "keyword": "Feature",
+    "uri": "001_createTask.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18643625600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.setUpTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Creating a new subtask",
+        "description": "",
+        "id": "create-subtask;creating-a-new-subtask",
+        "after": [
+          {
+            "result": {
+              "duration": 8662500100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.finishTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2164717200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I has access to My Tasks page",
+            "match": {
+              "location": "AppSteps.i_has_access_to_My_Tasks_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1582767700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Manage Subtasks button",
+            "match": {
+              "location": "AppSteps.i_click_this_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49405000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "A new dialog box opens up",
+            "match": {
+              "location": "AppSteps.a_new_dialog_box_opens_up()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 94647200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "It should have a read only field with the task ID",
+            "match": {
+              "location": "AppSteps.it_should_have_a_read_only_field_with_the_task_ID()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40139400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "It shound have a task description field",
+            "match": {
+              "location": "AppSteps.the_task_description()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11125748000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I add the SubTask and the Description and due date",
+            "match": {
+              "location": "AppSteps.i_add_the_SubTask_Description_and_due_date(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Due Date",
+                  "SubTask Desc"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  "Description1"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "2018-01-23",
+                  "Description2"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "2020/01/23",
+                  "Description3"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "2020/23/01",
+                  "Description4"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "23/01/2020",
+                  "Description5"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "01/23/2018",
+                  "Description6"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "",
+                  "Description7"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "test123",
+                  "Description8"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "00/00/0000",
+                  "Description9"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  ""
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  "Description10"
+                ],
+                "line": 24
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  "Description11"
+                ],
+                "line": 25
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  "Description12"
+                ],
+                "line": 26
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  "Description13"
+                ],
+                "line": 27
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  "ttttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaattttttttttaaaaaaaaaa"
+                ],
+                "line": 28
+              },
+              {
+                "cells": [
+                  "01/23/2020",
+                  "Description14"
+                ],
+                "line": 29
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 369830700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The subtask should be appended on the bottom of the box",
+            "match": {
+              "location": "AppSteps.the_subtask_should_be_appended_on_the_bottom_of_the_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 46504100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The Manage Subtasks button should have the number of subtasks",
+            "match": {
+              "location": "AppSteps.this_button_should_have_the_number_of_subtasks()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Create SubTask",
+    "description": "As a ToDo App user \nI should be able to create a subtask \nSo I can break down my tasks in smaller pieces",
+    "id": "create-subtask",
+    "keyword": "Feature",
+    "uri": "002_createSubtasks.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18935895800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.setUpTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Deleting a task",
+        "description": "",
+        "id": "delete-task;deleting-a-task",
+        "after": [
+          {
+            "result": {
+              "duration": 4779967000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.finishTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1979541400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I has access to My Tasks page",
+            "match": {
+              "location": "AppSteps.i_has_access_to_My_Tasks_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1384866400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Remove Task button",
+            "match": {
+              "location": "AppSteps.i_click_on_Remove_Task_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53727600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The task is remove from list",
+            "match": {
+              "location": "AppSteps.the_task_is_remove_from_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Task",
+    "description": "As a ToDo App user \nI should be able to delete a task \nSo I can remove undesired tasks from my list",
+    "id": "delete-task",
+    "keyword": "Feature",
+    "uri": "003_deleteTask.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 18199963800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.setUpTest()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Deleting a subtask",
+        "description": "",
+        "id": "delete-subtask;deleting-a-subtask",
+        "after": [
+          {
+            "result": {
+              "duration": 4059548900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AppSteps.finishTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1714229300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I has access to My Tasks page",
+            "match": {
+              "location": "AppSteps.i_has_access_to_My_Tasks_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1055704700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Manage Subtask",
+            "match": {
+              "location": "AppSteps.i_click_on_Manage_Subtask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 519765400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The subtask box is opened",
+            "match": {
+              "location": "AppSteps.the_subtask_box_is_opened()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 263550300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Remove Subtask",
+            "match": {
+              "location": "AppSteps.i_click_on_Remove_Subtask()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 414735000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The subtask is removed from list",
+            "match": {
+              "location": "AppSteps.the_subtask_is_removed_from_list()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Subtask",
+    "description": "As a ToDo App user \nI should be able to delete a subtask \nSo I can remove undesired subtasks from my list",
+    "id": "delete-subtask",
+    "keyword": "Feature",
+    "uri": "004_deleteSubtask.feature"
+  }
+]
